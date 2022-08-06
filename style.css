@@ -1,0 +1,169 @@
+*{
+    font-family: 'Montserrat';
+}
+
+.navbar{
+    background-color: #415C94;
+}
+
+.navbar a{
+    color: white;
+}
+
+header.masthead{
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url('/assets/images/homepage-background.png');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: cover;
+}
+
+header.masthead .masthead-subheading{
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-bottom: 25px;
+
+}
+
+header.masthead .masthead-heading{
+    font-size: 3.25rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 2.5rem;
+}
+
+@media (min-width: 768px){
+    header.masthead{
+        padding-top: 17rem;
+        padding-bottom: 12.5rem;
+    }
+    header.masthead .masthead-subheading{
+        font-size: 2.25rem;
+        line-height: 2.25rem;
+        margin-bottom: 4rem;
+    }
+    header.masthead .masthead-heading{
+        font-size: 4.5rem;
+        font-weight: 700;
+        line-height: 4.5rem;
+        margin-bottom: 4rem;
+    }
+}
+
+.page-section{
+    padding: 6rem 0;
+}
+
+.page-section h2.section-heading, .page-section .section-heading.h2{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #415C94;
+}
+.page-section h3.section-subheading, .page-section .section-subheading.h3 {
+    font-size: 1rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 6rem;
+  }
+
+@media(min-width: 760px){
+    section{
+        padding: 9rem 0;
+    }
+}
+
+#room .room-item{
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#room .room-item .room-link{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
+
+#room .room-item .room-link .room-hover{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(65, 92, 148, 0.9);
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity ease-in-out 0.25s;
+}
+
+#room .room-item .room-link .room-hover .room-hover-content{
+    font-size: 1.25rem;
+    color: white;
+}
+
+#room .room-item .room-link:hover .room-hover{
+    opacity: 1;
+}
+
+#room .room-item .room-caption{
+    padding: 1.5rem;
+    text-align: left;
+    background-color: #fff;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    /* font-weight: bold; */
+    margin-bottom: 0;
+}
+
+#room .room-item .room-caption .room-caption-heading{
+    font-size: 1.5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 900;
+    margin-bottom: 0;
+    /* font-style: italic; */
+}
+
+#room .room-item .room-caption .room-caption-subheading{
+    /* font-style: italic; */
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.btn-social{
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+    border-color: black;
+}
+.room-btn{
+    text-align: center;
+}
+
+.btn-primary{
+    /* background-color: #415C94; */
+    outline: none;
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #415C94;
+    --bs-btn-border-color: #415C94;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0b5ed7;
+    --bs-btn-hover-border-color: #0a58ca;
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #fff;
+    --bs-btn-disabled-bg: #415C94;
+    --bs-btn-disabled-border-color: #415C94;
+}
+
