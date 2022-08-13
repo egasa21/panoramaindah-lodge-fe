@@ -66,12 +66,15 @@ header.masthead .masthead-heading{
     color: #415C94;
 }
 .page-section h3.section-subheading, .page-section .section-subheading.h3 {
-    font-size: 1rem;
-    font-weight: 400;
-    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 600;
+    /* font-style: italic; */
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    margin-bottom: 6rem;
-  }
+    margin-bottom: 4rem;
+    color: #415C94;
+}
+
+
 
 @media(min-width: 760px){
     section{
@@ -167,3 +170,79 @@ header.masthead .masthead-heading{
     --bs-btn-disabled-border-color: #415C94;
 }
 
+/* package */
+
+#packageopt .package-item{
+    max-width: 26rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#packageopt .package-item .package-link{
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+#packageopt .package-item .package-hover{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background: rgba(65, 92, 148, 0.9); */
+    align-items: flex-end;
+    justify-content: left;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    /* opacity: 0.9; */
+    /* transition: opacity ease-in 0.25s; */
+}
+
+#packageopt .package-item .package-link .package-hover .package-hover-content{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: white;
+    -webkit-text-fill-color: white; /* Will override color (regardless of order) */
+    -webkit-text-stroke-width: 1.5px;
+    font-family: sans-serif;
+    -webkit-text-stroke-color: black;
+}
+
+/* #packageopt .package-item .package-link:hover .package-hover{
+    opacity: 1;
+} */
+
+/* footer */
+
+footer{
+    background-color: rgba(65, 92, 148, 0.9);
+}
+
+.footer-bot-text{
+    background-color: rgba(65, 92, 148, 0.9);
+    color: #fff;
+}
+
+.copyright{
+    font-size: 0.9rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon{
+
+    border-radius: 50%;
+}
+
+.btn-social-white{
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%;
+    border-color: white;
+    color: #fff;
+    
+}
